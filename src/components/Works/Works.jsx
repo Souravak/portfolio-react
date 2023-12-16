@@ -6,6 +6,11 @@ import Portfolio3 from '../../assets/portfolio-3.png';
 import Portfolio4 from '../../assets/portfolio-4.png';
 import Portfolio5 from '../../assets/portfolio-5.png';
 import Portfolio6 from '../../assets/portfolio-6.png';
+
+const redirectToGitHub = () => {
+  window.open('https://github.com/souravak', '_blank');
+};
+
 const Works = () => {
   return (
     <section id="works">
@@ -19,7 +24,7 @@ const Works = () => {
             <img src={Portfolio5} alt="Portfolio Image5" className="worksImg" />
             <img src={Portfolio6} alt="Portfolio Image6" className="worksImg" />
         </div>
-        <button className="worksBtn">See More</button>
+        <button className="worksBtn" onClick={redirectToGitHub}>See More</button>
     </section>
   )
 }

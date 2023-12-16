@@ -14,21 +14,21 @@ const Skills = () => {
           <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
           <div className="skillBarText">
             <h2>UI/UX Design</h2>
-            <p>This is a demo test, you can write your own content here.</p>
+            <p>Crafting intuitive UI/UX design to elevate user experience and seamlessly guide visitors through your website's content, ensuring engagement and satisfaction.</p>
           </div>
         </div>
         <div className="skillBar">
           <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
           <div className="skillBarText">
             <h2>Web Design</h2>
-            <p>This is a demo test, you can write your own content here.</p>
+            <p>Designing captivating and user-centric web interfaces to enhance usability and create visually compelling online experiences.</p>
           </div>
         </div>
         <div className="skillBar">
           <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
           <div className="skillBarText">
             <h2>App Design</h2>
-            <p>This is a demo test, you can write your own content here.</p>
+            <p>Crafting sleek and intuitive app designs, blending functionality with aesthetic appeal to deliver a seamless and delightful user experience.</p>
           </div>
         </div>
       </div>

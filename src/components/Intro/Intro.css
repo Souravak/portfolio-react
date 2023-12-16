@@ -56,6 +56,10 @@
     height: 1rem;
 }
 
+.hireBtn:hover{
+    background: #f1f1f1;
+}
+
 @media screen and (max-width:840px){
     .bg{
         right: -10vw;
@@ -69,6 +73,7 @@
         font-size: 4.5vw;
     }
 }
+
 
 @media screen and (max-width:480px){
     .bg{
