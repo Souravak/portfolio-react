@@ -20,18 +20,19 @@ const Contact = () => {
     message = document.getElementById("message").value;
     if(name.length === 0 || email.length === 0 || message.length === 0){
       alert("Please fill all the fields");
-      return;
     }
-    e.preventDefault();
-
-    emailjs.sendForm('service_plf4j0k', 'template_8bsg8gk', form.current, 'XI_R9T5Z7O3tdWEUo')
-      .then((result) => {
-          console.log(result.text);
-          e.target.reset();
-          alert('Email Sent !');
-      }, (error) => {
-          console.log(error.text);
-      });
+    else{
+      e.preventDefault();
+  
+      emailjs.sendForm('service_plf4j0k', 'template_8bsg8gk', form.current, 'XI_R9T5Z7O3tdWEUo')
+        .then((result) => {
+            console.log(result.text);
+            e.target.reset();
+            alert('Email Sent !');
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
   };
   return (
     <section id="contactPage">
