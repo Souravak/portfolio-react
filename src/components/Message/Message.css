@@ -1,0 +1,32 @@
+
+#messagePage{
+    background: rgb(2,0,36);
+    background: linear-gradient(162deg, rgba(2,0,36,1) 0%, rgba(237,255,0,0.7820378151260504) 74%);
+    margin-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.messagePageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+}
+
+.sendName, .sendMessage{
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    font-size: 1rem;
+    margin: 1.2rem;
+}
+
+.form-group{
+    width: 20rem;;
+}

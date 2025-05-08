@@ -3,37 +3,42 @@ import './Skills.css';
 import UIDesign from '../../assets/ui-design.png';
 import WebDesign from '../../assets/website-design.png';
 import AppDesign from '../../assets/app-design.png';
+import airpmoLogo from '../../assets/airpmo.png';
+import appleLogo from '../../assets/apple.jpg';
+import walgreensLogo from '../../assets/walgreens.png';
 
 const Skills = () => {
   return (
     <section className="skills">
-      <span className="skillTitle">What I do</span>
-      <span className="skillDesc">I am a skilled and passionate web developer with experience in HTML. CSS and JavaScript, as well as design software such as Abobe Photoshop and Illustrator.</span>
+      <span className="skillTitle">Experience Details</span>
+      <span className="skillDesc">Currently employed at Tata Consultancy Services (TCS) as an Associate Software Developer, having joined in October 2023.</span>
       <div className="skillBars">
         <div className="skillBar">
-          <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
+          <img src={walgreensLogo} alt="UIDesign" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>UI/UX Design</h2>
-            <p>Crafting intuitive UI/UX design to elevate user experience and seamlessly guide visitors through your website's content, ensuring engagement and satisfaction.</p>
+            <h2>Walgreens.com</h2>
+            <p>Currently serving at TCS as a Production Support Specialist for Walgreens Boots Alliance since October 2024.</p>
           </div>
         </div>
         <div className="skillBar">
-          <img src={WebDesign} alt="WebDesign" className="skillBarImg" />
+          <img src={appleLogo} alt="WebDesign" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>Web Design</h2>
-            <p>Designing captivating and user-centric web interfaces to enhance usability and create visually compelling online experiences.</p>
+            <h2>Apple.com</h2>
+            <p>Served 9 months at TCS for Apple.com (Dec 2023–Aug 2024) as a WebMethods.io and Java Spring Boot Developer.</p>
           </div>
         </div>
         <div className="skillBar">
-          <img src={AppDesign} alt="AppDesign" className="skillBarImg" />
+          <img src={airpmoLogo} alt="AppDesign" className="skillBarImg" />
           <div className="skillBarText">
-            <h2>App Design</h2>
-            <p>Crafting sleek and intuitive app designs, blending functionality with aesthetic appeal to deliver a seamless and delightful user experience.</p>
+            <h2>AirPMO.co</h2>
+            <p>Served 1.5 years as Senior Web Developer at AirPMO (Apr 2022–Aug 2023), building and maintaining the company’s website.</p>
           </div>
         </div>
       </div>
     </section>
   )
+  
+  
 }
 
 export default Skills

@@ -36,7 +36,7 @@ const Contact = () => {
   };
   return (
     <section id="contactPage">
-        <div id="clients">
+        {/* <div id="clients">
             <h1 className="contactPageTitle">My Clients</h1>
             <p className="clientDesc">
                 I have the opportunity to work with a diverse group of companies.
@@ -48,7 +48,7 @@ const Contact = () => {
                 <img src={Microsoft} alt="Client" className="clientImg" />
                 <img src={Facebook} alt="Client" className="clientImg" />
             </div>
-        </div>
+        </div> */}
         <div id="contact">
           <h1 className="contactPageTitle">Contact Me</h1>
           <span className="contactDesc">Please fill out the form below to discuss any work opportunites.</span>

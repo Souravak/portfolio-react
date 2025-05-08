@@ -13,4 +13,40 @@
 
 .version{
     font-size: 8px;
+    color: #545151;
 }
+
+.messageBox{
+    /* display: none  !important; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageIcon{
+    height: 1rem;
+    width: 1rem;
+}
+
+.alt-text {
+    visibility: hidden;
+    /* width: 100px; */
+    bottom: 25px;
+    background-color: #545151;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+  
+.messageBox:hover .alt-text {
+    visibility: visible;
+    opacity: 1;
+}
+  

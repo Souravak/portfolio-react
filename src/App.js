@@ -1,19 +1,18 @@
-import Navbar from "./components/Navbar/Navbar";
-import Intro from "./components/Intro/Intro";
-import Skills from "./components/Skills/Skills";
-import Works from "./components/Works/Works"; 
-import Contact from "./components/Contact/Contact"; 
-import Footer from "./components/Footer/Footer";  
+import Home from "./components/Home/Home";
+import Message from "./components/Message/Message";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import './App.css';
+
+const basename = process.env.NODE_ENV === "production" ? "/portfolio-react" : "";
+
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Intro />
-      <Skills />
-      <Works />
-      <Contact />
-      <Footer />
-    </div>
+    <Router basename={basename}>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/message" element={<Message />} />
+      </Routes>
+    </Router>
   );
 }
 
