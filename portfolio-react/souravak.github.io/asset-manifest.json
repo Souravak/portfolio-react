@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f73f5e0.css",
+    "main.js": "/static/js/main.1e2d594e.js",
+    "static/media/portfolio-6.png": "/static/media/portfolio-6.4a10fac7d271e87859e9.png",
+    "static/media/portfolio-2.png": "/static/media/portfolio-2.33d06b368b4e6395030e.png",
+    "static/media/portfolio-4.png": "/static/media/portfolio-4.8e8bac5e33dc3f211e2b.png",
+    "static/media/portfolio-1.png": "/static/media/portfolio-1.b33adf772d54ab33e953.png",
+    "static/media/image.png": "/static/media/image.3e24d4a3ec5fe6eb7f1d.png",
+    "static/media/portfolio-5.png": "/static/media/portfolio-5.bf754db8618dd60ec6f1.png",
+    "static/media/portfolio-3.png": "/static/media/portfolio-3.ca4192894d93b08ad3b5.png",
+    "static/media/airpmo.png": "/static/media/airpmo.8d2f6b59b6dbf80c9d94.png",
+    "static/media/logo.png": "/static/media/logo.3e46fc6b1ada2b39e010.png",
+    "static/media/walgreens.png": "/static/media/walgreens.d8b114e4f5f75369f55c.png",
+    "static/media/message.png": "/static/media/message.26ff413ed6afcce5567a.png",
+    "static/media/apple.jpg": "/static/media/apple.c29a0d3f6f846476dc98.jpg",
+    "static/media/tcs.jpg": "/static/media/tcs.008e9fa190233cbbdde7.jpg",
+    "static/media/facebook.png": "/static/media/facebook.81dd033a37c4860f7121.png",
+    "static/media/adobe.png": "/static/media/adobe.a08b8360ff7b700ed0c4.png",
+    "static/media/walmart.png": "/static/media/walmart.1d2b5e5c5c5a8e2bd5ce.png",
+    "static/media/ui-design.png": "/static/media/ui-design.c4acd455fc2040eddcc8.png",
+    "static/media/instagram.png": "/static/media/instagram.0bcd1dcb7d853c327af7.png",
+    "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.5a920154bff04440d08944d135520db3.svg",
+    "main.6f73f5e0.css.map": "/static/css/main.6f73f5e0.css.map",
+    "main.1e2d594e.js.map": "/static/js/main.1e2d594e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f73f5e0.css",
+    "static/js/main.1e2d594e.js"
+  ]
+}
